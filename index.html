@@ -5,7 +5,7 @@
 <html xmlns = "http://www.w3.org/1999/xhtml">
 <head>
 
-    <title>Projex</title>
+    <title>Portfolio-site</title>
 
     <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
     <meta name="keywords" content="">
     <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
     <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -25,6 +25,8 @@ The @for statement sets $var to each successive number in the specified range an
 @for $i from 1 through 3 {
   .item-#{$i} { width: 2em * $i; }
 </p>
+
+{% include footer.html %}
 </body>
 
 </html>
