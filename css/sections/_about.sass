@@ -55,7 +55,50 @@ h3
 .blurb
   max-width: 620px
   padding: 0 15px
-  margin: 50px auto
+  margin: 100px auto
   font-size: 24px
   text-align: center
   font-weight: 300
+
+.skill-wrap
+  max-width: 540px
+  margin: 50px auto
+  +clearfix
+
+
+.skill-lockup
+  max-width: 270px
+  margin: auto auto
+  color: #999
+  float: left
+
+  .skill-unit
+    width: 270px
+    //f
+
+  .skill-icons
+    font-size: 0
+    margin: 0 0 20px
+
+    span
+      display: inline-block
+      +size(14px)
+      background-color: $accent-dark
+      margin-right: 5px
+      border-radius: 50%
+
+      &:after
+        content: ''
+        display: block
+        +size(10px)
+        background: #fff
+        border-radius: 50%
+        margin: 2px
+
+    @for $i from 1 through 10
+      &.skill-#{$i} span:nth-child(n+#{$i})
+        background: $bgcolor
+
+@media screen and (max-width: 541px)
+  .skill-lockup
+    width: 350px
