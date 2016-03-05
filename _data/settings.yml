@@ -1,0 +1,13 @@
+avatar: OM3.jpg
+bg-img: 277H.jpg
+
+# Work Section
+projects:
+- {name: TYPO International Design Talks, folder: 'proj1', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj2', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj3', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj4', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj5', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj6', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj7', file: '../img/work/proj1.html'}
+- {name: TYPO International Design Talks, folder: 'proj8', file: '../img/work/proj1.html'}
