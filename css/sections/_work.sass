@@ -7,7 +7,13 @@
 
 .work-belt
   width: 200%
-  background: pink
+  position: relative
+  left: 0%
+  +transition(all 800ms)
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
 
 
 .thumb-container
@@ -64,3 +70,43 @@
       top: 0%
       +transform(rotateX(0deg))
       opacity: 1
+
+.work-container
+  max-width: 600px
+  margin: 0 auto
+  display: none
+  position: relative
+
+  h4
+    color: $accent-light
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 16px
+    line-height: 1.2
+    margin: 0 0 20px
+
+  img
+    max-width: 100%
+    margin-bottom: 20px
+
+  .work-return
+    +size(40px)
+    cursor: pointer
+    //background: pink
+    opacity: 0.5
+    +position(absolute, -4px null null -60px)
+
+    path
+      fill: rgba(0,0,0,0.4)
+
+    &:hover
+      opacity: 1
+
+@media (max-width: 740px)
+  .work-container
+
+    .work-return
+      left: 0px
+
+    h4
+      margin-left: 60px
