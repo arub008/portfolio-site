@@ -1,6 +1,7 @@
 $(function() {
 	smoothScroll(400);
 	workBelt();
+	workLoad();
 });
 
 // smoothScroll function is applied from the document ready function
@@ -28,6 +29,21 @@ function workBelt() {
 	$('.work-return').click(function(){
 		$('.work-belt').css('left', '0%');
 		$('.work-container').hide(800);
+	});
+
+}
+
+function workLoad(){
+  $.ajaxSetup({ cash: true});
+
+	$('.thumb-unit').click(function(){
+		var $this = $(this),
+				newTitle = $this.find('strong').text(),
+				newFolder = $this.data('folder'),
+		 		spinner = '<div class="loader">Loading...</div>',
+				newHTML ='/work/'+ newFolder +'.html';
+		$('.project-load').html(spinner).load(newHTML);
+		$('.project-title').text(newTitle);
 	});
 
 }

@@ -8,13 +8,16 @@
   .face-img
     +size(200px)
     border-radius: 50%
+    max-width: 200px
     background-image: url(../img/#{$avatar-path})
+    background-position: center center
     +order(3)
 
   [class^="icon-"]
     +size(100px)
     background: $bgcolor
     border-radius: 50%
+
 
     path
       fill: $accent-dark

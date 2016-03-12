@@ -1,13 +1,14 @@
 avatar: OM3.jpg
 bg-img: 277H.jpg
+title: Portfolio-site
 
 # Work Section
 projects:
-- {name: TYPO International Design Talks, folder: 'proj1', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj2', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj3', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj4', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj5', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj6', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj7', file: '../img/work/proj1.html'}
-- {name: TYPO International Design Talks, folder: 'proj8', file: '../img/work/proj1.html'}
+- {name: Икона "Казанская Богородица", folder: 'proj1', file: '../img/work/proj1.html'}
+- {name: Кольцо Ом с цитрином, folder: 'proj2', file: '../img/work/proj1.html'}
+- {name: Икона "Николай Чудотворец", folder: 'proj3', file: '../img/work/proj1.html'}
+- {name: Значок «Локо», folder: 'proj4', file: '../img/work/proj1.html'}
+- {name: Икона (золото), folder: 'proj5', file: '../img/work/proj5.html'}
+- {name: Икона СВ. Александр Невский, folder: 'proj6', file: '../img/work/proj1.html'}
+- {name: Подвеска (эскиз), folder: 'proj7', file: '../img/work/proj1.html'}
+- {name: Подвеска (золото), folder: 'proj8', file: '../img/work/proj1.html'}

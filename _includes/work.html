@@ -6,7 +6,7 @@
   <div class="thumb-wrap">
 <div class="thumb-container">
   {% for project in site.data.settings.projects %}
-   <div class="thumb-unit" style="background-image: url(../img/work/{{project.folder}}/thumb.jpg);">
+   <div class="thumb-unit" data-folder="{{ project.folder }}" style="background-image: url(../img/work/{{project.folder}}/thumb.jpg);">
      <div class="thumb-overlay">
        <strong>{{ project.name }}</strong>
      </div>
@@ -20,24 +20,8 @@
   <div class="work-return">
     {% include icons/icon-back.html %}
   </div>
-  <h4>Do work</h4>
-  <div style="width: 600px; height: 500px; background: #ccc;">
-    <p>
-      If there are no Windows 10 audio drivers available yet from the website
-      of your computer, motherboard or device manufacturer, try these solutions in the following order.
-    </p>
-  </div>
-  <div style="width: 600px; height: 500px; background: #ccc;">
-    <p>
-      If there are no Windows 10 audio drivers available yet from the website
-      of your computer, motherboard or device manufacturer, try these solutions in the following order.
-    </p>
-  </div>
-  <div style="width: 600px; height: 500px; background: #ccc;">
-    <p>
-      If there are no Windows 10 audio drivers available yet from the website
-      of your computer, motherboard or device manufacturer, try these solutions in the following order.
-    </p>
+  <h4 class="project-title">Икона Казанская Богородица</h4>
+  <div class="project-load">
   </div>
 
 </div>
