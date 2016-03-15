@@ -1,19 +1,38 @@
+.section-contact
+  text-align: center
+
 .social-links
   max-width: 700px
   margin: 0px auto
   +display(flex)
   +justify-content(space-around)
-  padding-bottom: 100px
+  padding-bottom: 70px
+  +flex-wrap(wrap)
 
   a
     display: block
     background: $accent-dark
     +size(50px)
-    text-align: center
     line-height: 50px
     color: white
     border-radius: 50%
     font-size: 28px
+    margin: 20px
+    +transition()
 
     &:hover
       +transform(scale(1.2))
+
+.bar
+  width: 250px
+  height: 0px
+  border-top: 4px solid $accent-dark
+  margin: 0px auto 70px
+
+.biglink
+  display: inline-block
+  font:
+    size: 72px
+    weight: 300
+  line-height: 1
+  margin-bottom: 70px

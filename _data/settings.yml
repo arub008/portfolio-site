@@ -1,6 +1,7 @@
 avatar: OM3.jpg
 bg-img: 277H.jpg
 title: Portfolio-site
+email: artist@gmail.com
 
 # Work Section
 projects:
@@ -30,3 +31,11 @@ quote: '<strong>33Ребята,всем привет.</strong> Нужно нап
 спуска,для поиска минимальных значений функции двух переменных,по идее алгоритм
 правильный,но протабулировать функцию не получается,даже значения задал начальные
 для метода,но просто ниче не выводит,гугл не помог.Оператор вывода есть.', logo: '130.jpg'}
+
+
+# Contact Section
+social:
+- {icon: 'twitter', link: 'http://twitter'}
+- {icon: 'linkedin', link: 'http://twitter'}
+- {icon: 'youtube', link: 'http://twitter'}
+- {icon: 'github', link: 'http://twitter'}
